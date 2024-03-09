@@ -1,0 +1,8 @@
+# Ignore Docker-specific files and directories
+.dockerignore
+Dockerfile
+
+# Ignore version control system directories
+.git
+.gitignore
+.github

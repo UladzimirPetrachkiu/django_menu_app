@@ -1,0 +1,37 @@
+/* Styles for the main menu container */
+.menu-container {
+    margin-top: 20px;
+}
+
+/* Styles for the main menu */
+.menu-container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles for menu items */
+.menu-container ul li {
+    padding: 5px 0;
+}
+
+/* Styles for the active menu item */
+.menu-container ul li.active > a {
+    font-weight: bold;
+}
+
+/* Styles for expanded menu items */
+.menu-container ul li.expanded > a {
+    font-weight: bold;
+}
+
+/* Styles for nested menu */
+.menu-container ul ul {
+    margin-left: 20px;
+    display: none; /* Initially hide all nested menus */
+}
+
+/* Styles for active nested menu */
+.menu-container ul li.expanded > ul {
+    display: block; /* Show the immediate children of expanded items */
+}
